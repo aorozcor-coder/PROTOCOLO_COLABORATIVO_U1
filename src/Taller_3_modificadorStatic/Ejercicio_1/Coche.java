@@ -11,4 +11,8 @@ public class Coche {
         this.modelo = modelo;
         contadorCoches++; // Se incrementa cada vez que se crea un nuevo Coche
     }
+
+    public static void mostrarContador() {
+        System.out.println("Total de coches creados: " + contadorCoches);
+    }
 }
