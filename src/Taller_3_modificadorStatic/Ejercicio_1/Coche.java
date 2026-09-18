@@ -12,4 +12,9 @@ public class Coche {
         contadorCoches++; // Se incrementa cada vez que se crea un nuevo Coche
     }
 
+    // Método Statico
+    public static void mostrarContador() {
+        System.out.println("Total de coches creados: " + contadorCoches);
+
+    }
 }
